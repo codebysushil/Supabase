@@ -1,6 +1,13 @@
-title: Supabase's Docs
-description: Documentation site
-baseurl: "/docs"  # leave empty for root GitHub Pages
-theme: jekyll-theme-minimal
+title: Supabase client for PHP
+description: Supabase client for PHP Documentation site
+baseurl: "/docs"   # ← your subpath
+url: "https://codebysushil.github.io"
+theme: minimal
 plugins:
   - jekyll-feed
+
+nav:
+  - title: Home
+    url: /
+  - title: Auth
+    url: /auth
