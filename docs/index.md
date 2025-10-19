@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
+title: Supabase
 ---
 
-# Welcome to Supabase client for PHP's Docs
-This is your home page.
+### Welcome to Supabase client for PHP.
+This is a Documention of Supabase Client for PHP.
