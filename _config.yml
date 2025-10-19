@@ -1,6 +1,6 @@
 title: Supabase's Docs
 description: Documentation site
 baseurl: "/docs"  # leave empty for root GitHub Pages
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
