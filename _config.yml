@@ -1,8 +1,8 @@
 title: Supabase client for PHP
 description: Supabase client for PHP Documentation site
 baseurl: "/docs"   # ← your subpath
-url: "https://codebysushil.github.io"
-theme: minimal
+url: "https://codebysushil.github.io/supabase/"
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
