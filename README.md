@@ -1,5 +1,6 @@
 # Supabase
 Supabase client for PHP.
+[![Tests](https://github.com/codebysushil/Supabase/actions/workflows/tests.yml/badge.svg)](https://github.com/codebysushil/Supabase/actions/workflows/tests.yml)
 
 ### Example
 
