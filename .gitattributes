@@ -1,0 +1,17 @@
+* text=auto eol=lf                          
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github        export-ignore
+/.gitignore     export-ignore
+/.editorconfig  export-ignore
+/.gitattributes export-ignore
+/example/       export-ignore
+/docs/          export-ignore
+/tests/         export-ignore
+/phpunit.xml    export-ignore
+/_config.yml    export-ignore
+
