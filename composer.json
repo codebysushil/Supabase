@@ -3,15 +3,22 @@
     "description": "Supabase Client",
     "type": "library",
     "require": {
-        "php": "^8.4"
+        "php": "^8.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^12.4"
+        "phpunit/phpunit": "^12.4",
+        "phpunit/phpcov": "^11.0",
+        "phpstan/phpstan": "^2.1"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sushilk\\Supabase\\": "src/"
+            "Supabase\\Client\\": "src/Client/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "authors": [
@@ -20,6 +27,14 @@
             "email": "sushilkumbhar77@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "scripts": {
+        "test:unit":"./vendor/bin/phpunit",
+        "test:type": "./vendor/bin/phpstan analyse src --level=max",
+        "tests": [
+            "@test:unit",
+            "@test:type"
+        ]
+    },
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
