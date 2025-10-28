@@ -1,6 +1,10 @@
 # Supabase
 Supabase client for PHP.
+
 [![Tests](https://github.com/codebysushil/Supabase/actions/workflows/tests.yml/badge.svg)](https://github.com/codebysushil/Supabase/actions/workflows/tests.yml)
+[![CodeQL](https://github.com/codebysushil/Supabase/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/codebysushil/Supabase/actions/workflows/github-code-scanning/codeql)
+
+---
 
 ### Example
 
