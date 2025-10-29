@@ -27,3 +27,21 @@ $data = $client->execute();
 var_dump($data);
 
 ```
+---
+
+Setup `.env`:
+
+```env
+#_-_ Supabase Configuration _-_#
+
+# URL, anon and service_role key must be required.
+
+# Supabase URL
+SB_URL="https://your-project.supabase.co"
+
+# Supabase anon key as apikey
+SB_ANON_KEY="your-supabase-anon-key-here"
+
+# Supabase service_role key as OAuth token
+SB_SERVICE_ROLE="your-supabase-service_role-key-here"
+```
