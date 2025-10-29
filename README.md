@@ -3,6 +3,10 @@ Supabase client for PHP.
 
 [![Tests](https://github.com/codebysushil/Supabase/actions/workflows/tests.yml/badge.svg)](https://github.com/codebysushil/Supabase/actions/workflows/tests.yml)
 [![CodeQL](https://github.com/codebysushil/Supabase/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/codebysushil/Supabase/actions/workflows/github-code-scanning/codeql)
+![Packagist Downloads](https://img.shields.io/packagist/dt/sushilk/supabase?style=flat&logo=packagist&label=Downloads&color=blue)
+![Packagist Version](https://img.shields.io/packagist/v/sushilk/supabase?style=flat&logo=composer&logoColor=%23fff)
+![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/sushilk/supabase/php?style=flat&logo=php&logoColor=blue&label=PHP&color=blue)
+![Packagist License](https://img.shields.io/packagist/l/sushilk/supabase?style=flat&label=License&color=blue)
 
 ---
 
