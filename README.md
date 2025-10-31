@@ -10,6 +10,12 @@ Supabase client for PHP.
 
 ---
 
+### Install
+
+```bash
+composer require sushilk/supabase
+```
+
 ### Example
 
 ```php
