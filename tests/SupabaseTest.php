@@ -9,15 +9,16 @@ final class SupabaseTest extends TestCase
 {
     public Client $client;
 
-    public function setUp(): void {
-        $url = "example.com";
-        $key = "password";
+    protected function setUp(): void
+    {
+        $url = 'example.com';
+        $key = 'password';
 
         $this->client = new Client($url, $key);
 
     }
 
-    public function testGetData()
+    public function test_get_data()
     {
         $this->client->from('user');
         $data = $this->client->execute();
