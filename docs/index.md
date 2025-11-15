@@ -8,10 +8,12 @@ This is a Documention of Supabase Client for PHP.
 
 ### Install
 ```bash
-composer require sushilk/supabasse
+composer require sushilk/supabase
 ```
 
-### Setup `.env`
+### Setup
+Create a `.env` file for better security.
+
 ```env
 URL=https://<project id>.supabase.co
 API_KEY=jK2jfiirdif
